@@ -2,9 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-  background-color: white;
-  
+  /* text-align: center; */
 }
 
 .logo {
@@ -40,4 +38,28 @@
 
 .read-the-docs {
   color: #888;
+}
+.navTop {
+background-color: darkblue;
+}
+.navRight {
+width: 260px;
+}
+.btnLog {
+border: none;
+background-color: darkblue  ;
+transition: 0.3s;
+}
+.btnLog:hover {
+  box-shadow: 0 2px 0 0 lightgray,0 2px 0 0 lightgray;
+}
+.toggleStyle {
+  background-color: aliceblue;
+  border-radius: 20%;
+}
+.toggleBody {
+  border: none;
+}
+.dropStyle {
+  margin-top: 3px;
 }

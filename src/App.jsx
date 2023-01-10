@@ -1,13 +1,15 @@
 import reactLogo from "./assets/react.svg";
 import React, { Component, useRef, useState } from "react";
+import Navbar from "./components/Navbar";
+import DefaultLayout from "./Layout/Defaultlayout";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <main>
-      <h1 className="text-primary">Tolulope</h1>
+      <DefaultLayout>
+        <h1 className="text-primary">Tolulope</h1>
+      </DefaultLayout>
     </main>
   );
 }
