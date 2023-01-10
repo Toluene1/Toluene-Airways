@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main>
+    <main className="mt-5">
       <DefaultLayout>
         <h1 className="text-primary">Tolulope</h1>
       </DefaultLayout>

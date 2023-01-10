@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   /* text-align: center; */
 }
 
@@ -40,14 +40,14 @@
   color: #888;
 }
 .navTop {
-background-color: darkblue;
+background-color: navy;
 }
 .navRight {
 width: 260px;
 }
 .btnLog {
 border: none;
-background-color: darkblue  ;
+background-color: navy ;
 transition: 0.3s;
 }
 .btnLog:hover {
@@ -62,4 +62,10 @@ transition: 0.3s;
 }
 .dropStyle {
   margin-top: 3px;
+}
+.bodyStyle {
+ width: 100%;
+ height: 300px;
+ background-color: black;
+
 }
