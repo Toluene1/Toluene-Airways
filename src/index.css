@@ -117,6 +117,7 @@ button:focus-visible {
   background-color: navy;
   margin-top: 10px;
   transition: 0.3s;
+  border: none;
 }
 .buttonhome1:hover {
   box-shadow: 0 2px 0 0 lightgray,0 2px 0 0 lightgray;
@@ -164,4 +165,22 @@ padding-top: 10px;
 }
 .textColor {
   color: navy;
+}
+.newsLetter{
+  width: 72%;
+  height: 370px;
+  background-color: #747bff;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("new.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 370px;
+  padding: 40px;
+}
+.formNews {
+  /* width: 40%; */
+  color: aliceblue;
+}
+.inputStyle {
+  background-color: aliceblue;
 }
