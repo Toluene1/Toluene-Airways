@@ -6,11 +6,18 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="mt-5">
-      <DefaultLayout>
-        <h1 className="text-primary">Tolulope</h1>
-      </DefaultLayout>
-    </main>
+    <DefaultLayout>
+      <main className="mt-5">
+        <div className="homepageTop">
+          <div>
+            <h2 className="textHome1">
+              Travel to new destinations <br /> with us
+            </h2>
+            <button className="buttonhome1">Book Now</button>
+          </div>
+        </div>
+      </main>
+    </DefaultLayout>
   );
 }
 
