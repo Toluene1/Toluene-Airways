@@ -70,9 +70,9 @@ const Signup = () => {
         <div className="loginDiv">
           <div className="divWithin">
             <img
-              src="https://mekuzairline.netlify.app/airplane-flight.webp"
+              src="https://cdn.wallpapersafari.com/43/59/OiVau9.jpg"
               alt=""
-              className="imgLogin"
+              className="imgLogin mt-5"
             />{" "}
           </div>
           <div className="divWithin">
@@ -100,7 +100,7 @@ const Signup = () => {
                       onChange={(e) =>
                         (createAcc.current.firstName = e.target.value)
                       }
-                      className={`form-control outline-warning border-0 text-warning`}
+                      className={`form-control outline-warning border-0 colorRandom`}
                     />
                   </div>
                   <div className="mb-3">
@@ -113,7 +113,7 @@ const Signup = () => {
                       onChange={(e) =>
                         (createAcc.current.lastName = e.target.value)
                       }
-                      className={`form-control outline-warning border-0 text-warning`}
+                      className={`form-control outline-warning border-0 colorRandom`}
                     />
                   </div>
                   <div className="mb-3">
@@ -127,7 +127,7 @@ const Signup = () => {
                       onChange={(e) =>
                         (createAcc.current.email = e.target.value)
                       }
-                      className={`form-control outline-warning border-0 text-warning`}
+                      className={`form-control outline-warning border-0 colorRandom`}
                     />
                   </div>
                   <div className="mb-3">
@@ -140,7 +140,7 @@ const Signup = () => {
                       onChange={(e) =>
                         (createAcc.current.password = e.target.value)
                       }
-                      className={`form-control outline-warning border-0 border-none text-warning`}
+                      className={`form-control outline-warning border-0 border-none colorRandom`}
                     />
                   </div>
                   <button type="submit" className="btnForm">

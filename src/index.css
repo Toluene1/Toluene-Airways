@@ -201,6 +201,7 @@ padding-top: 10px;
 }
 .imgLogin {
   width: 100%;
+  border-radius: 20px;
 }
 .formColor {
   background-color: navy;
