@@ -174,7 +174,7 @@ padding-top: 10px;
   border-radius: 20px;
   background-image: url("new.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 370px;
+  background-size: cover;
   padding: 40px;
 }
 .formNews {
@@ -198,6 +198,11 @@ padding-top: 10px;
 .divWithin {
   width: 600px;
   margin: 30px;
+}
+.imgSignup {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 60px;
 }
 .imgLogin {
   width: 100%;

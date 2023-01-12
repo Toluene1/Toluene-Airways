@@ -27,7 +27,7 @@ function App() {
               <label class="form-label">Email address</label>
               <input
                 type="email"
-                class="form-control w-50 inputStyle"
+                class="form-control w-75 inputStyle"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />

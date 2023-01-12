@@ -72,7 +72,7 @@ const Signup = () => {
             <img
               src="https://cdn.wallpapersafari.com/43/59/OiVau9.jpg"
               alt=""
-              className="imgLogin mt-5"
+              className="imgSignup"
             />{" "}
           </div>
           <div className="divWithin">

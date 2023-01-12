@@ -67,32 +67,40 @@ const Login = () => {
           </div>
           <div className="divWithin">
             <main>
-              <main className="w-75 m-auto">
-                <div className="text-center mt-5">
-                  {alert && (
-                    <Alert
-                      closeAlert={closeAlert}
-                      alertMessage={alertMessage}
-                    />
-                  )}
-                  <h5 className="text-center colorRandom ">Login Account</h5>
-                </div>
+              <main className="w-75 m-auto mt-4">
+                <h5 className="text-center colorRandom ">Login Account</h5>
                 <form onSubmit={onlogin} className="formColor p-3 shadow-lg">
+                  <div className="text-center colorTextForm">
+                    {alert && (
+                      <Alert
+                        closeAlert={closeAlert}
+                        alertMessage={alertMessage}
+                      />
+                    )}
+                  </div>
                   <div class="form-floating mb-3">
                     <input
-                      type="email"
+                      type="text"
+                      required
                       class="form-control"
                       id="floatingInput"
                       placeholder="name@example.com"
+                      onChange={(e) =>
+                        (createAcc.current.email = e.target.value)
+                      }
                     />
                     <label for="floatingInput">Email address</label>
                   </div>
                   <div class="form-floating">
                     <input
                       type="password"
+                      required
                       class="form-control"
                       id="floatingPassword"
                       placeholder="Password"
+                      onChange={(e) =>
+                        (createAcc.current.password = e.target.value)
+                      }
                     />
                     <label for="floatingPassword">Password</label>
                   </div>
