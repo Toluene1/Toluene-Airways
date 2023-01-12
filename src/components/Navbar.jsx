@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import React from "react";
+import { Component, useRef, useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 
 const Navbar = () => {
@@ -5,9 +8,12 @@ const Navbar = () => {
     <main className="fixed-top navTop px-3">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand ms-2 text-white" href="#">
-            TolueneAirways
-          </a>
+          <Link
+            to={"/"}
+            className="btn btn-link m-none link-dark text-decoration-none"
+          >
+            <h5 className="colorTextForm">TolueneAirways</h5>
+          </Link>
           <button
             className="navbar-toggler "
             type="button"
@@ -43,7 +49,7 @@ const Navbar = () => {
                   <li>
                     <Dropdown className="dropStyle">
                       <Dropdown.Toggle
-                        className="btnLog  text-white"
+                        className="btnLog1  text-white"
                         variant="transparent"
                         id="dropdown-basic"
                       >
@@ -66,18 +72,28 @@ const Navbar = () => {
             </div>
             <div className=" navRight ">
               <form className="d-flex" role="search">
-                <button className="btnLog" type="submit">
-                  <span>
-                    <i className="bi bi-box-arrow-in-right me-2"></i>{" "}
-                  </span>
-                  Log In
-                </button>
-                <button className="btnLog ms-4" type="submit">
-                  <span>
-                    <i className="bi bi-person-check me-2"></i>
-                  </span>
-                  Sign Up
-                </button>
+                <Link
+                  to={"/login"}
+                  className="btn btn-link link-dark text-decoration-none text-warning"
+                >
+                  <button className="btnLog" type="submit">
+                    <span>
+                      <i className="bi bi-box-arrow-in-right me-2"></i>{" "}
+                    </span>
+                    Log In
+                  </button>{" "}
+                </Link>
+                <Link
+                  to={"/signup"}
+                  className="btn btn-link link-dark text-decoration-none text-warning"
+                >
+                  <button className="btnLog" type="submit">
+                    <span>
+                      <i className="bi bi-person-check me-2"></i>
+                    </span>
+                    Sign Up
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

@@ -184,3 +184,39 @@ padding-top: 10px;
 .inputStyle {
   background-color: aliceblue;
 }
+.mainLogin {
+  margin-top: 73px;
+}
+.loginDiv {
+  /* background-color: rgb(74, 74, 62); */
+  /* height: 500px; */
+  width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.divWithin {
+  width: 600px;
+  margin: 30px;
+}
+.imgLogin {
+  width: 100%;
+}
+.formColor {
+  background-color: navy;
+}
+.colorRandom {
+  color: navy;
+}
+.colorTextForm {
+  color: aliceblue;
+}
+.btnForm {
+  background-color: aliceblue;
+  color: navy;
+  transition: 0.3s;
+}
+.btnForm:hover {
+  background-color: navy;
+  color: aliceblue;
+}

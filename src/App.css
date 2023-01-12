@@ -41,6 +41,7 @@
 }
 .navTop {
 background-color: navy;
+padding: 0px;
 }
 .navRight {
 width: 260px;
@@ -49,8 +50,17 @@ width: 260px;
 border: none;
 background-color: navy ;
 transition: 0.3s;
+width: 120px;
+}
+.btnLog1 {
+border: none;
+background-color: navy ;
+transition: 0.3s;
 }
 .btnLog:hover {
+  box-shadow: 0 2px 0 0 lightgray,0 2px 0 0 lightgray;
+}
+.btnLog1:hover {
   box-shadow: 0 2px 0 0 lightgray,0 2px 0 0 lightgray;
 }
 .toggleStyle {

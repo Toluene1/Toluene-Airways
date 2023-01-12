@@ -24,9 +24,7 @@ function App() {
               Never miss out on our daily news and Updates
             </p>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">
-                Email address
-              </label>
+              <label class="form-label">Email address</label>
               <input
                 type="email"
                 class="form-control w-50 inputStyle"
@@ -40,7 +38,7 @@ function App() {
                 class="form-check-input"
                 id="exampleCheck1"
               />
-              <label class="form-check-label" for="exampleCheck1">
+              <label class="form-check-label">
                 I would like to get updates from Toluene Airways
               </label>
             </div>
