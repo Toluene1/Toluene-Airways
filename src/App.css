@@ -41,7 +41,7 @@
 }
 .navTop {
 background-color: navy;
-padding: 0px;
+padding: px;
 }
 .navRight {
 width: 260px;
@@ -62,6 +62,9 @@ transition: 0.3s;
 }
 .btnLog1:hover {
   box-shadow: 0 2px 0 0 lightgray,0 2px 0 0 lightgray;
+}
+.toggleDesign:focus {
+  box-shadow: 0px 0px  transparent !important;
 }
 .toggleStyle {
   background-color: aliceblue;

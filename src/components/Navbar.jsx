@@ -15,7 +15,7 @@ const Navbar = () => {
             <h5 className="colorTextForm">TolueneAirways</h5>
           </Link>
           <button
-            className="navbar-toggler "
+            className="navbar-toggler toggleDesign "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

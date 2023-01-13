@@ -65,6 +65,9 @@ button:focus-visible {
   }
  
 }
+. navbar-toggler {
+  background-color: darkkhaki;
+}
 .footerStyle {
   background-color: navy;
   width: 100%;
