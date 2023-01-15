@@ -6,6 +6,7 @@ import "./App.css";
 import LetsGo from "./components/LetsGo";
 import NewsLetter from "./components/NewsLetter";
 import PlanTravel from "./components/PlanTravel";
+import TabsTop from "./components/TabsTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <button className="buttonhome1">Book Now</button>
           </div>
         </div>{" "}
+        <TabsTop />
         <br />
         <br />
         {/* Travel Places */}
