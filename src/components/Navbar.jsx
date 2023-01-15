@@ -8,10 +8,7 @@ const Navbar = () => {
     <main className="fixed-top navTop px-3">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link
-            to={"/"}
-            className="btn btn-link m-none link-dark text-decoration-none"
-          >
+          <Link to={"/"} className=" text-decoration-none">
             <h5 className="colorTextForm">TolueneAirways</h5>
           </Link>
           <button

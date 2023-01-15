@@ -41,7 +41,6 @@
 }
 .navTop {
 background-color: navy;
-padding: px;
 }
 .navRight {
 width: 260px;
@@ -51,6 +50,8 @@ border: none;
 background-color: navy ;
 transition: 0.3s;
 width: 120px;
+padding: 2px;
+margin-left: -10px;
 }
 .btnLog1 {
 border: none;

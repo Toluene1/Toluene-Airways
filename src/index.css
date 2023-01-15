@@ -167,7 +167,7 @@ padding-top: 10px;
   color: navy;
 }
 .newsLetter{
-  width: 72%;
+  width: 71%;
   height: 370px;
   background-color: #747bff;
   margin: auto;
@@ -289,25 +289,33 @@ padding-top: 10px;
   width: 75%;
   margin: auto;
   margin-top: 40px;
+  border-radius: 20px;
+
 }
 .activeTab {
 color: navy;
 border: none;
 padding: 10px;
 width: 290px;
-background-color: aliceblue;
+background-color: white;
 border-radius: 0px;
 }
-/* @media only screen and (min-width : 546px) {
-  .tabBtn {
+/* .firstTabRadius {
+  border-radius: 10px 0px  0px 0px;
+} */
+@media only screen and (min-width:546px) {
+  /* .tabBtn {
     background-color: transparent;
     border: none;
     outline: none;
     padding: 10px;
     width: fit-content;
     min-width: 265px;
+  } */
+  .tabWithin {
+    background-color: white;
   }
-} */
+}
 .tabBtn {
   background-color: aliceblue;
   background-color: navy;
@@ -328,10 +336,11 @@ border-radius: 0px;
 }
 .tabWithin {
   background-color: navy;
+  border-radius: 10px 0px 10px 0px;
 }
 .border {
   background-color: white;
-  color: navy;
+  color: black;
   padding:  16px;
   padding-right: 40px;
 }
@@ -349,4 +358,7 @@ transition: 0.3s;
 .formBtn:hover {
   background-color: navy;
   color: aliceblue;
+}
+.link {
+  padding: 30px;
 }

@@ -25,7 +25,7 @@ const TabsTop = () => {
           Book a flight
         </button>
         <button
-          className={` ${toggle == 1 ? "activeTab" : "tabBtn"}`}
+          className={` ${toggle == 1 ? "activeTab" : "tabBtn"} firstTabRadius`}
           onClick={() => handleTab(1)}
         >
           Manage my booking

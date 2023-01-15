@@ -59,7 +59,7 @@ const BookFlight = ({ toggle }) => {
           </div>
 
           <div>
-            <select name="" id="" className=" border">
+            <select name="" className=" border">
               <option value="1 adult">1 adult</option>
               <option value="2 adult (12+years)">2 adult (12+years)</option>
               <option value="3 adult (12+years)">3 adult (12+years)</option>
@@ -70,7 +70,7 @@ const BookFlight = ({ toggle }) => {
           </div>
 
           <div>
-            <select name="" id="" className=" border ">
+            <select name="" className=" border ">
               <option value="0 child">0 child</option>
               <option value="1 child">1 child</option>
               <option value="2 child">2 child</option>
@@ -81,7 +81,7 @@ const BookFlight = ({ toggle }) => {
           </div>
 
           <div>
-            <select name="" id="" className=" border">
+            <select name="" className=" border">
               <option value="0 infant">0 infant</option>
               <option value="1 infant">1 infant</option>
               <option value="2 infant">2 infant</option>
