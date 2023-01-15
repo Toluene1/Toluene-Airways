@@ -12,7 +12,7 @@ const Checkin = ({ toggle }) => {
             <input className="form-control" type="text" id="lastname" />
           </div>
           <div>
-            <button className="tabcontentBtn mt-4"> Check-in </button>
+            <button className="formBtn mt-4"> Check-in </button>
           </div>
         </div>
       </form>

@@ -13,12 +13,12 @@ const BookFlight = ({ toggle }) => {
   return (
     <div className={` ${toggle == 0 ? "activetabcontent" : "tabcontent"}`}>
       <h4 className="ms-3">flights</h4>
-      <form action="" className="form-control border-0 w-100">
-        <div className="d-flex flex-wrap gap-3  align-items-center  ">
-          <div className="form-floating ">
+      <form action="" className="form-control border-0  w-100">
+        <div className="d-flex flex-wrap gap-4  align-items-center  ">
+          <div className="form-floating  ">
             <input
               type="text"
-              className="form-control"
+              className="form-control formOutline"
               id="from"
               placeholder="name@example.com"
             />
@@ -89,7 +89,7 @@ const BookFlight = ({ toggle }) => {
             </select>
           </div>
           <div>
-            <button className="tabcontentBtn ">Show flight</button>
+            <button className="formBtn ">Show flight</button>
           </div>
         </div>
       </form>

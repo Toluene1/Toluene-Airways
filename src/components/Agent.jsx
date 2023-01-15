@@ -12,7 +12,7 @@ const Agent = ({ toggle }) => {
             <input className="form-control" type="password" id="password" />
           </div>
           <div>
-            <button className="tabcontentBtn mt-4"> Login</button>
+            <button className="formBtn mt-4"> Login</button>
           </div>
           <div className="mt-auto px-3 pt-3 ">
             <p>forgot Password?</p>

@@ -286,7 +286,7 @@ padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
+  width: 75%;
   margin: auto;
   margin-top: 40px;
 }
@@ -294,7 +294,7 @@ padding-top: 10px;
 color: navy;
 border: none;
 padding: 10px;
-width: 303px;
+width: 290px;
 background-color: aliceblue;
 border-radius: 0px;
 }
@@ -315,7 +315,7 @@ border-radius: 0px;
   outline: none;
   padding: 10px;
   width: fit-content;
-  min-width: 303px;
+  min-width: 285px;
   border-radius: 0px;
 }
 .tabcontent {
@@ -328,4 +328,25 @@ border-radius: 0px;
 }
 .tabWithin {
   background-color: navy;
+}
+.border {
+  background-color: white;
+  color: navy;
+  padding:  16px;
+  padding-right: 40px;
+}
+.formOutline:focus {
+  border: none !important;
+  color: navy;
+  outline: none;
+}
+.formBtn {
+color: navy;
+background-color: white;
+width: 200px;
+transition: 0.3s;
+}
+.formBtn:hover {
+  background-color: navy;
+  color: aliceblue;
 }

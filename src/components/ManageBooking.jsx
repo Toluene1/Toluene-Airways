@@ -22,7 +22,7 @@ const ManageBooking = ({ toggle }) => {
             <label htmlFor="last">LastName</label>
           </div>
           <div>
-            <button className="tabcontentBtn "> Retrive booking </button>
+            <button className="formBtn "> Retrive booking </button>
           </div>
         </div>
       </form>
