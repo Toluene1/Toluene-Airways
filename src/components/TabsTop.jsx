@@ -1,9 +1,9 @@
 import { useState } from "react";
 import BookFlight from "./BookFlight";
 // import { FaPlane } from "react-icons/fa";
-// import Agent from "./Agent";
-// import Checkin from "./Checkin";
-// import ManageBooking from "./ManageBooking";
+import Agent from "./Agent";
+import Checkin from "./Checkin";
+import ManageBooking from "./ManageBooking";
 
 const TabsTop = () => {
   const [toggle, settoggle] = useState(0);
@@ -14,7 +14,7 @@ const TabsTop = () => {
 
   return (
     <main className="TabsTop shadow ">
-      <div className="d-flex flex-wrap justify-content-between tab-container  ">
+      <div className="d-flex flex-wrap justify-content-between tab-container tabWithin ">
         <button
           className={` ${toggle == 0 ? "activeTab" : "tabBtn"}`}
           onClick={() => handleTab(0)}
@@ -44,10 +44,9 @@ const TabsTop = () => {
         </button>
       </div>
       <BookFlight toggle={toggle} />
-      {/* 
-      <ManageBooking toggle={toggle} />
       <Checkin toggle={toggle} />
-      <Agent toggle={toggle} /> */}
+      <Agent toggle={toggle} />
+      <ManageBooking toggle={toggle} />
     </main>
   );
 };

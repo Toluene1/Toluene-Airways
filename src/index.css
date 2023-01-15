@@ -283,20 +283,31 @@ padding-top: 10px;
   border-radius: 20px;
 }
 .TabsTop {
-  background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   margin: auto;
+  margin-top: 40px;
 }
 .activeTab {
 color: navy;
 border: none;
 padding: 10px;
-width: 265px;
-background-color: transparent;
+width: 303px;
+background-color: aliceblue;
+border-radius: 0px;
 }
+/* @media only screen and (min-width : 546px) {
+  .tabBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: fit-content;
+    min-width: 265px;
+  }
+} */
 .tabBtn {
   background-color: aliceblue;
   background-color: navy;
@@ -304,5 +315,17 @@ background-color: transparent;
   outline: none;
   padding: 10px;
   width: fit-content;
-  min-width: 265px;
+  min-width: 303px;
+  border-radius: 0px;
+}
+.tabcontent {
+  display: none;
+}
+.activetabcontent {
+  margin-top: 20px;
+  padding: 20px;
+  display: block;
+}
+.tabWithin {
+  background-color: navy;
 }
