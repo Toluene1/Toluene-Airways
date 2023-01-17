@@ -290,35 +290,18 @@ padding-top: 10px;
   margin: auto;
   margin-top: 40px;
   border-radius: 20px;
-
 }
 .activeTab {
-color: navy;
+color: blueviolet;
 border: none;
 padding: 10px;
 width: 284px;
 background-color: white;
 border-radius: 0px;
 }
-/* .firstTabRadius {
-  border-radius: 10px 0px  0px 0px;
-} */
-@media only screen and (min-width:546px) {
-  /* .tabBtn {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding: 10px;
-    width: fit-content;
-    min-width: 265px;
-  } */
-  .tabWithin {
-    background-color: white;
-  }
-}
 .tabBtn {
-  background-color: aliceblue;
-  background-color: navy;
+  background-color: white;
+  color: navy;
   border: none;
   outline: none;
   padding: 10px;
@@ -326,6 +309,33 @@ border-radius: 0px;
   min-width: 285px;
   border-radius: 0px;
 }
+.tabWithin {
+  background-color: white;
+  border-radius: 10px 0px 10px 0px;
+}
+@media only screen and (min-width:546px) {
+  .tabBtn {color: #ffffff;
+    background-color: navy;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: fit-content;
+    min-width: 285px;
+  }
+  .activeTab {
+    color: navy;
+    border: none;
+    padding: 10px;
+    width: 284px;
+    background-color: white;
+    border-radius: 0px;
+    }
+    .tabWithin {
+      background-color: navy;
+      border-radius: 10px 0px 10px 0px;
+    }
+}
+
 .tabcontent {
   display: none;
 }
@@ -334,10 +344,7 @@ border-radius: 0px;
   padding: 20px;
   display: block;
 }
-.tabWithin {
-  background-color: navy;
-  border-radius: 10px 0px 10px 0px;
-}
+
 .border {
   background-color: white;
   color: black;
