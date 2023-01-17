@@ -1,7 +1,9 @@
+import "animate.css";
+
 const NewsLetter = () => {
   return (
     <section>
-      <div className="newsLetter">
+      <div className="newsLetter animate__animated animate__fadeIn">
         <form className=" formNews">
           <p className="fw-bold">
             Never miss out on our daily news and Updates
