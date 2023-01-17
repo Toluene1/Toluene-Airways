@@ -4,7 +4,7 @@ const LetsGo = () => {
   return (
     <section>
       <div className="animate__animated animate__fadeIn">
-        <div className=" travelHeader">
+        <div className=" travelHeader text-center">
           <h3>Let's go places together</h3>
           <p>
             Discover the latest offers and news and start planning your next

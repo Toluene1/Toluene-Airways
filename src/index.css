@@ -169,7 +169,6 @@ padding-top: 10px;
 .newsLetter{
   width: 71%;
   height: 370px;
-  background-color: #747bff;
   margin: auto;
   border-radius: 20px;
   background-image: url("new.jpg");
@@ -178,7 +177,6 @@ padding-top: 10px;
   padding: 40px;
 }
 .formNews {
-  /* width: 40%; */
   color: aliceblue;
 }
 .inputStyle {
@@ -227,9 +225,10 @@ padding-top: 10px;
   color: aliceblue;
 }
 .travelHeader {
-  width: 70%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
   color: navy;
+  /* justify-content: center; */
 }
 .travelPlaces {
   width: 100%;
