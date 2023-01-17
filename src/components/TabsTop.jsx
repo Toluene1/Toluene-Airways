@@ -4,6 +4,7 @@ import BookFlight from "./BookFlight";
 import Agent from "./Agent";
 import Checkin from "./Checkin";
 import ManageBooking from "./ManageBooking";
+import "animate.css";
 
 const TabsTop = () => {
   const [toggle, settoggle] = useState(0);
@@ -13,7 +14,7 @@ const TabsTop = () => {
   };
 
   return (
-    <main className="TabsTop shadow ">
+    <main className="TabsTop shadow animate__animated animate__fadeIn ">
       <div className="d-flex flex-wrap justify-content-between tab-container tabWithin ">
         <button
           className={` ${toggle == 0 ? "activeTab" : "tabBtn"}`}

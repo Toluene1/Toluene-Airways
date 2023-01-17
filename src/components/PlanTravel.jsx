@@ -1,7 +1,9 @@
+import "animate.css";
+
 const PlanTravel = () => {
   return (
     <section>
-      <div className="aboutUs">
+      <div className="aboutUs animate__animated animate__backInRight">
         <div className="planTop text-center textColor">
           <h4>Plan your travel with confidence</h4>
           <p>

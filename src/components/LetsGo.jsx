@@ -1,7 +1,9 @@
+import "animate.css";
+
 const LetsGo = () => {
   return (
     <section>
-      <div>
+      <div className="animate__animated animate__fadeIn">
         <div className=" travelHeader">
           <h3>Let's go places together</h3>
           <p>
