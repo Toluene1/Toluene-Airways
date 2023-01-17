@@ -296,7 +296,7 @@ padding-top: 10px;
 color: navy;
 border: none;
 padding: 10px;
-width: 290px;
+width: 284px;
 background-color: white;
 border-radius: 0px;
 }
@@ -358,7 +358,4 @@ transition: 0.3s;
 .formBtn:hover {
   background-color: navy;
   color: aliceblue;
-}
-.link {
-  padding: 30px;
 }
