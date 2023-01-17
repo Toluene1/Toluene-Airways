@@ -7,11 +7,12 @@ import LetsGo from "./components/LetsGo";
 import NewsLetter from "./components/NewsLetter";
 import PlanTravel from "./components/PlanTravel";
 import TabsTop from "./components/TabsTop";
+import "animate.css";
 
 function App() {
   return (
     <DefaultLayout>
-      <main className="mt-5">
+      <main className="mt-5 animate__animated animate__fadeIn">
         {/* Top Page */}
         <div className="homepageTop">
           <div>
