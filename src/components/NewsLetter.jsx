@@ -1,9 +1,22 @@
 import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const NewsLetter = () => {
   return (
     <section>
-      <div className="newsLetter animate__animated animate__fadeIn">
+      <div
+        className="newsLetter"
+        data-aos="fade-in"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="300"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
         <form className=" formNews">
           <p className="fw-bold">
             Never miss out on our daily news and Updates

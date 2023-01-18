@@ -34,12 +34,12 @@ const BookFlight = ({ toggle }) => {
             <label htmlFor="to">To</label>
           </div>
 
-          <div className="form-floating ">
+          <div className="form-floating borderAdd">
             <input className="form-control" type="date" id="departure" />
             <label htmlFor="departure">depart </label>
           </div>
           {showReturn && (
-            <div className="form-floating">
+            <div className="form-floating borderAdd">
               <input className="form-control" type="date" id="return" />
               <label htmlFor="return">return</label>
             </div>

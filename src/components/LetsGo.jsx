@@ -1,9 +1,21 @@
 import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const LetsGo = () => {
   return (
     <section>
-      <div className="animate__animated animate__fadeIn">
+      <div
+        data-aos="fade-in"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="300"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
         <div className=" travelHeader text-center">
           <h3>Let's go places together</h3>
           <p>

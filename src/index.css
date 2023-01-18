@@ -351,6 +351,9 @@ border-radius: 0px;
   padding:  16px;
   padding-right: 40px;
 }
+.borderAdd {
+  padding-right: 40px;
+}
 .formOutline:focus {
   border: none !important;
   color: navy;
