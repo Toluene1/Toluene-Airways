@@ -4,6 +4,7 @@ import GlobalProvider from "../Provider/GlobalProvider";
 import { GlobalContext } from "../Provider/GlobalProvider";
 import { useContext } from "react";
 import Alert from "../components/Alert";
+import "animate.css";
 
 const Signup = () => {
   const { Store, setStore, alert, setalert, alertMessage, setalertMessage } =
@@ -66,7 +67,7 @@ const Signup = () => {
 
   return (
     <DefaultLayout>
-      <main className="mainLogin">
+      <main className="mainLogin animate__animated animate__fadeIn">
         <div className="loginDiv">
           <div className="divWithin">
             <img

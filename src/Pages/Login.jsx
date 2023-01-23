@@ -5,6 +5,7 @@ import { GlobalContext } from "../Provider/GlobalProvider";
 import { useContext } from "react";
 import Alert from "../components/Alert";
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const Login = () => {
   const { Store, setStore, alert, setalert, alertMessage, setalertMessage } =
@@ -56,7 +57,7 @@ const Login = () => {
 
   return (
     <DefaultLayout>
-      <main className="mainLogin">
+      <main className="mainLogin animate__animated animate__fadeIn">
         <div className="loginDiv">
           <div className="divWithin">
             <img
